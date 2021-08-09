@@ -13,5 +13,3 @@ $ source venv/bin/activate
 ```bash
 $ pytest -svv
 ```
-
-- Não se esqueça de incluir no .gitignore os arquivos e diretórios que não precisamos subir para o repositório.
