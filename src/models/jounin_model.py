@@ -4,9 +4,6 @@ class Jounin(Ninja):
 
     def __init__(self, name: str, clan: str, village: str, proficiency: dict):
         super().__init__(name, clan, village, ninja_level = 'Jounin')
-        self.name = name
-        self.clan = clan
-        self.village = village
         self.proficiency = proficiency
         self.is_in_mission = False
 

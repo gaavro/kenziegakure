@@ -15,7 +15,7 @@ class Ninja:
     def learn_jutsu(self, jutsu: Jutsu):
         self.jutsu_list.append(jutsu)
         return f'O ninja {self.name} {self.clan} acabou de aprender um novo jutsu: {jutsu.jutsu_name}'           
-
+    @staticmethod
     def check_health(self):
         if self.health_pool < 0:
             self.health_pool= 0
